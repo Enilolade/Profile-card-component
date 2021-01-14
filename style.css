@@ -1,0 +1,72 @@
+
+body {
+    background-color: #008891;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 25rem, 25rem;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+/******Classes*******/
+
+.content {
+    background-color: white;
+    height: 18.75rem;
+    width: 18.75rem;
+    margin: 12.5rem auto;
+    border-radius: 0.7rem;
+}
+.image {
+    background-image: url(./images/bg-pattern-card.svg);
+    border-radius: 0.7rem 0.7rem 0 0;
+    height: 6rem;
+
+}
+.profile-picture {
+    border-radius: 50%;
+    margin-top: 3.5rem;
+    border: white;
+    border-style: solid;
+    border-width: 0.25rem;
+    height: 4.63rem;
+    width: 4.63rem;
+}
+.profile {
+    line-height: 1;
+    margin: 3.2rem auto 1.5rem auto;
+}
+.name {
+    font-weight: bolder;
+}
+.age {
+    color: gray;
+    margin-left: 0.36rem;
+}
+.location {
+    color: gray;
+    font-size: 0.7rem;
+}
+.activity-q {
+    font-weight: bolder;
+    margin: 0;
+    line-height: 1rem;
+}
+.activity-q p {
+    display: inline-block;
+    margin: 0.5rem 1.5rem 0 1.5rem;
+}
+.activity {
+    color: gray;
+    font-size: 0.6rem;
+    line-height: 1rem;
+}
+.activity p {
+    display: inline-block;
+    margin: 0 1.7rem;
+}
+.attribution {
+    margin-bottom: 0.9rem;
+}
